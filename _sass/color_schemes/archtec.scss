@@ -1,0 +1,45 @@
+@import "./color_schemes/light";
+
+$link-color: $blue-100;
+$content-width: 70rem;
+
+.badge {
+  align-items: center;
+  font-size: 12px;
+  display: inline-block;
+  height: 100%;
+  white-space: nowrap;
+  width: auto;
+  top: 3px;
+
+  position: relative;
+  border-radius: 100px;
+  line-height: 1;
+  overflow: hidden;
+  padding: 0px 12px 0px 20px;
+  text-overflow: ellipsis;
+  line-height: 1.5rem;
+  color: #595959;
+  word-break: break-word;
+
+  &:before {
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 6px;
+    margin-top: -5px;
+    position: absolute;
+    top: 50%;
+    width: 10px;
+  }
+}
+
+.badge-success {
+  background: #b4eda0; }
+    .badge-success:before {
+      background: #6BC167; }
+
+.badge-error {
+  background: #ffd5d1; }
+    .badge-error:before {
+      background: #dd2e2e; }
