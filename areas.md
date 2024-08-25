@@ -3,10 +3,10 @@ layout: default
 title: Areas Tutorial
 nav_order: 5
 description: Areas Tutorial
-last_modified_date: "24 December 2023"
+last_modified_date: "25 August 2024"
 ---
 
-## Areas Tutorial
+# Areas Tutorial
 
 ### Areas information
 

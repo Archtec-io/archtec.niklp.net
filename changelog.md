@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "13 July 2024"
+last_modified_date: "25 August 2024"
 ---
 
 # Changelog
@@ -1278,3 +1278,38 @@ And much more...
 ### 2024-07-03
 - Fixed crash when accepting a teleport-request (`/ok`)
 - Fixed crash when stripping a trunk node
+
+### 2024-07-15
+- Added debug code to fix bugtracker#195
+
+### 2024-07-22
+- Enabled Ethereal ABMs for Water to Ice, Snow/Ice to Water, Dry Dirt to Dirt (near Water)
+- Added particle effect and sound when Lava Pickaxe cooks node
+- Added Signs Bot Connection Tool invertation when pressing Aux1 (usually E)
+- Added new HUD to indicate PvP status
+- Made Stripped Tree nodes accessible -> Use 'Chisel for Trunks'
+- Made FAQ Search Case insensitive
+- Fixed players can get into walls while riding Bikes
+- Fixed some Skins with pixels on the "Cape" layer
+- Fixed own Travelnets can't be removed from Areas protected by others
+- Fixed Corals can't be placed on 'ethereal:sandy'
+- Fixed alpha rendering of Fachwerk Windows
+- Fixed TA2 Boiler works without Boiler Base
+- Fixed 'cblocks' nodes get rotated when placed
+- Fixed players who initiated Votes can vote a second time
+- Made Biofuel unusable for Techage purposes (again)
+- Disallowed rotation of various 'mydoors' Doors
+- Usual translation updates and minor bugfixes
+
+### 2024-07-22 2
+- Fixed crash when using '/no' or '/yes'
+
+### 2024-08-08
+- Fixed crash when using '/no' or '/yes' (this time actually)
+- Updated LuaJIT to latest master
+
+### 2024-08-12
+- Updated to Minetest 5.9.0
+- Serverside Hightlights:
+  - Multithreaded Custom (Lua) Mapgen -> much less Mapgen lag
+  - The "Invsaw" is back (Item duplication bugs have been fixed in this release)
