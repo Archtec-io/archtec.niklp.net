@@ -1287,25 +1287,25 @@ And much more...
 - Added particle effect and sound when Lava Pickaxe cooks node
 - Added Signs Bot Connection Tool invertation when pressing Aux1 (usually E)
 - Added new HUD to indicate PvP status
-- Made Stripped Tree nodes accessible -> Use 'Chisel for Trunks'
+- Made Stripped Tree nodes accessible -> Use `Chisel for Trunks`
 - Made FAQ Search Case insensitive
 - Fixed players can get into walls while riding Bikes
 - Fixed some Skins with pixels on the "Cape" layer
 - Fixed own Travelnets can't be removed from Areas protected by others
-- Fixed Corals can't be placed on 'ethereal:sandy'
+- Fixed Corals can't be placed on `ethereal:sandy`
 - Fixed alpha rendering of Fachwerk Windows
 - Fixed TA2 Boiler works without Boiler Base
-- Fixed 'cblocks' nodes get rotated when placed
+- Fixed `cblocks` nodes get rotated when placed
 - Fixed players who initiated Votes can vote a second time
 - Made Biofuel unusable for Techage purposes (again)
-- Disallowed rotation of various 'mydoors' Doors
+- Disallowed rotation of various `mydoors` Doors
 - Usual translation updates and minor bugfixes
 
 ### 2024-07-22 2
-- Fixed crash when using '/no' or '/yes'
+- Fixed crash when using `/no` or `/yes`
 
 ### 2024-08-08
-- Fixed crash when using '/no' or '/yes' (this time actually)
+- Fixed crash when using `/no` or `/yes` (this time actually)
 - Updated LuaJIT to latest master
 
 ### 2024-08-12
@@ -1313,3 +1313,15 @@ And much more...
 - Serverside Hightlights:
   - Multithreaded Custom (Lua) Mapgen -> much less Mapgen lag
   - The "Invsaw" is back (Item duplication bugs have been fixed in this release)
+
+### 2024-09-09
+- Replaced many farming 32x32 textures with similar 16x16 textures
+- Added arrow overlay to `ropes` ladders
+- Added relative coordinates support for areas commands
+- Added sounds to `telemosaic` nodes
+- Added rotation support to `xdecor` Painting
+- Limited use of `/thankyou` to 1 per hour
+- Fixed font rendering issues in `signs_lib` and `display_modpack` by converting CRLFs to LFs
+- Disabled idlekick for staff
+- Increased entity visibility by 32 nodes (2 blocks)
+- Usual translation updates and minor bugfixes
