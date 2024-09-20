@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "25 August 2024"
+last_modified_date: "20 September 2024"
 ---
 
 # Changelog
@@ -1325,3 +1325,10 @@ And much more...
 - Disabled idlekick for staff
 - Increased entity visibility by 32 nodes (2 blocks)
 - Usual translation updates and minor bugfixes
+
+## 2024-09-15
+- Enabled the Mapserver "Trainlines" overlay (trainlines must be added by Staff)
+
+### 2024-09-16
+- Updated to Minetest 5.9.1
+- Updated LuaJIT to latest master
