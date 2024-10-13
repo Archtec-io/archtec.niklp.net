@@ -107,7 +107,7 @@ compress_html:
 # External navigation links
 nav_external_links_new_tab: true
 nav_external_links:
-  - title: Download Minetest
+  - title: Download Luanti
     url: https://www.minetest.net/downloads/
     hide_icon: false
   - title: <span id="statusbadge" class="badge badge-success">Archtec up</span>

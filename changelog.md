@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "20 September 2024"
+last_modified_date: "14 October 2024"
 ---
 
 # Changelog
@@ -1332,3 +1332,25 @@ And much more...
 ### 2024-09-16
 - Updated to Minetest 5.9.1
 - Updated LuaJIT to latest master
+
+### 2024-10-07
+- Enabled Prometheus engine metrics
+- Fixed critical memory leak in caverealms mapgen
+
+### 2024-10-10
+- Installed `jitprofiler` for debugging the current performance issue
+
+### 2024-10-11
+- Added new Mesa, Aspen, Pine and Silversand biomes to ethereal [REMOVED DUE TO MAJOR MAPGEN REGRESSION]
+- Added support for Minetest 5.9 volumetric lighting a.k.a Godrays
+- Added `/map` command (gives you an URL to the Mapserver, pointing at your current position)
+- Added support for all saplings in the Sign Bot `plant_sapling` command
+- Added real "sitting down" support to homedecor furniture
+- Replaced more farming 32x32px textures with their 16x16 counterparts
+- Fixed that Techage Growlight spawned waterlilies on garden soil
+- Fixed `/stats` for accounts which are younger than 1 minute
+- Increased item pickup radius from 0.75 to 1.25 nodes
+- Usual translation updates and minor bugfixes
+
+### 2024-10-12
+- Reverted homedecor update (new sitting down stuff caused physics and animation bugs)
