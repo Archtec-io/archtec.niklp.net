@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "14 October 2024"
+last_modified_date: "8 December 2024"
 ---
 
 # Changelog
@@ -1354,3 +1354,12 @@ And much more...
 
 ### 2024-10-12
 - Reverted homedecor update (new sitting down stuff caused physics and animation bugs)
+
+### 2024-11-30
+- Added real "sitting down" support to homedecor furniture (should work this time)
+- Added `/tp_mapblock` command (teleports staff using Mapblock coordinates)
+- Added White Rat (there are 3 species now)
+- Fixed Homedecor "Half Doors" being not craftable
+- Fixed Castle Shields didn't show up in itemframes
+- Fixed multiple crashes (didn't happen on Archtec though)
+- Usual translation updates and minor bugfixes
