@@ -17,7 +17,7 @@ last_modified_date: "25 August 2024"
 ### Protect an area
 
 1. Specify the corner positions of the area you would like to protect
-- `/area_pos1` and `/area_pos2` set the two corner positions to your current positions.<br><br>
+- `/area_pos1` and `/area_pos2` set the two corner positions to your current positions.
 - `/area_pos set` punch the two corner positions to set them.
 
 2. Protect the selected area

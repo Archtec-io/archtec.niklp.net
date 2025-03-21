@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "8 December 2024"
+last_modified_date: "21 March 2025"
 ---
 
 # Changelog
@@ -16,7 +16,8 @@ last_modified_date: "8 December 2024"
 > Fast jump by year:
 > [2022]({{site.base_url}}/changelog/#2022),
 > [2023]({{site.base_url}}/changelog/#2023),
-> [2024]({{site.base_url}}/changelog/#2024)
+> [2024]({{site.base_url}}/changelog/#2024),
+> [2025]({{site.base_url}}/changelog/#2025)
 
 ## 2022
 
@@ -1363,3 +1364,47 @@ And much more...
 - Fixed Castle Shields didn't show up in itemframes
 - Fixed multiple crashes (didn't happen on Archtec though)
 - Usual translation updates and minor bugfixes
+
+### 2024-12-15
+- Added checkbox in the "Settings" menu to disable snow particles
+- Fixed head animation on 5.8.0 (and older)
+- Fixed crash when using `/m`
+
+### 2024-12-29
+- Removed `tnt:tnt_stick` from item list for fishing rod
+
+## 2025
+
+### 2025-01-02
+- Added patch to debug randomly disappearing hunger bars
+- Added recipe to cook `default:silver_sandstone` from four `bonemeal:bone` using the TA3 Furnace
+- Added FAQ page about mapblocks (and how to display mapblock borders)
+- Reworked sitting for xdecor nodes
+- Fixed weird bugs when trying to push a travelnet with mesecons tools
+- (Hopefully) fixed rare carts sound playing to all users
+- Removed `tnt:tnt_stick` from item list for fishing
+- Modified alpha rendering of fachwerk and homedecor nodes (this should result in better rendering performance)
+- Usual translation updates and minor bugfixes (Thanks to @spageektti for lots of Polish translations)
+
+### 2025-01-25
+- Updated Luanti to 5.10.0
+- Updated LuaJIT to latest master
+
+### 2025-01-27
+- Updated Mapserver to 4.9.2 (this update provides some minor UI improvements)
+
+### 2025-02-06
+- Integrated all ethereal changes of the last 7 months
+  - Improved biome layout (+ new decorations: stone spikes, ponds)
+  - Leaf particles on trees
+  - Tweaked many textures
+- Added Techage Traffic Lights
+- Added TA4 Water Remover
+- Fixed Wheat/Straw recipe loop which resulted in Item duplication
+- Horse can defend themselves now
+- Usual translation updates and minor bugfixes
+
+### 2025-02-25
+- Updated Techage to fix crash when using Move controller
+  - Added TA3 monitor and TA4 displays
+  - Removed Lua controller Batteries and moved to credit-based runtime control

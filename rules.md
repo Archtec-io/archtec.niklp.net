@@ -3,12 +3,12 @@ layout: default
 title: Rules
 nav_order: 2
 description: Rules
-last_modified_date: "22 September 2023"
+last_modified_date: "21 March 2025"
 ---
 
 # Rules
 
-### Things that are prohibited on this server:
+### Things that are prohibited on Archtec:
 - spamming
 - begging
 - pornographic nicknames
