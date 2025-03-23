@@ -1408,3 +1408,16 @@ And much more...
 - Updated Techage to fix crash when using Move controller
   - Added TA3 monitor and TA4 displays
   - Removed Lua controller Batteries and moved to credit-based runtime control
+
+### 2025-03-22
+- Updated Luanti to 5.11.0
+- Updated LuaJIT to latest master
+
+- Added Techage "Move Controller II", various improvements
+- Added "all-faces" variants of ethereal tree trunks
+- Added weed and weed bale
+- Fixed Wood from "cblocks" not being usable as "group:wood" in recipes (e.g. for sticks)
+- Fixed desert cobble door not using the desert cobble texture
+- Improved signs bot "AND gate" and filling of slots
+- Cows and sheep do not "eat" grass blocks anymore
+- Usual translation updates (especially Russian and Ukrainian) and minor bugfixes
