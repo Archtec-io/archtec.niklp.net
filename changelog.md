@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "21 March 2025"
+last_modified_date: "24 May 2025"
 ---
 
 # Changelog
@@ -1421,3 +1421,30 @@ And much more...
 - Improved signs bot "AND gate" and filling of slots
 - Cows and sheep do not "eat" grass blocks anymore
 - Usual translation updates (especially Russian and Ukrainian) and minor bugfixes
+
+### 2025-04-03
+- Posters are now dyeable (8 colors supported)
+- Added dimmed and turned off variants of all morelights (right-click w/ bulb to switch mode)
+- Added Pine, Jungle, Aspen and Acacia doors (both locked and unlocked)
+- Revised Technic CNC machine (18 new nodes supported, fixed weird behaving UI)
+- Improved Techage Door Controllor II
+- Improved signs_bot "AND" logic and node sensor
+- Added new button to crafting grid that will arrange 5 nodes
+- Usual translation updates and minor bugfixes
+
+### 2025-04-05
+- Fixed crash when using Techage TA4 Doser
+
+### 2025-05-01
+- Updated Mapserver to 4.9.3
+
+### 2025-05-24
+- FAQ now mentions the "Omnidriver" and "Replacer" (Who hasn't heard of them yet? ;-)
+- Mymillwork Machine can be used with much more nodes from bakedclay and ethereal
+- Added "Techage Observervation Window" which makes items in tubes visible
+- Added "Cactur Flower" and "Blue Marble Brick"
+- Replacer cannot be used to gain XP as easily anymore
+- Horses, cows and warthogs can attack players out of the blue
+- Tweaked crop drops
+- Improved login, logout, IP location and VPN logging
+- Usual translation updates (particularly Ukrainian) and minor bugfixes
