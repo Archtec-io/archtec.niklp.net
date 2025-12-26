@@ -9,7 +9,7 @@ last_modified_date: "24 May 2025"
 # Changelog
 
 {: .note }
-> This page is maybe not up-to-date, Discord has the most recent changelogs.
+> This page is maybe not up-to-date. The most recent updates can be seen on Discord and Matrix.
 > Scroll down to get the latest changes.
 
 {: .highlight }
@@ -17,7 +17,12 @@ last_modified_date: "24 May 2025"
 > [2022]({{site.base_url}}/changelog/#2022),
 > [2023]({{site.base_url}}/changelog/#2023),
 > [2024]({{site.base_url}}/changelog/#2024),
-> [2025]({{site.base_url}}/changelog/#2025)
+> [2025]({{site.base_url}}/changelog/#2025),
+> [2026]({{site.base_url}}/changelog/#2026)
+
+<h2 class="text-delta">Table of contents</h2>
+- TOC
+{:toc}
 
 ## 2022
 
@@ -159,7 +164,7 @@ last_modified_date: "24 May 2025"
 - Updated `futil` (fixes; new functions)
 - Updated `letters` (code cleanup)
 
-### 2022-10-15 2
+### 2022-10-15 (2)
 - Fixed broken invisible armor
 - Updated `drawers` (reverted last update; idk why)
 
@@ -179,7 +184,7 @@ last_modified_date: "24 May 2025"
 - Updated `techage` (new isobutane recipe)
 - Removed `player_monoids` (it was too buggy)
 
-### 2022-10-22 2
+### 2022-10-22 (2)
 - Fixed not working VPN blocker
 
 ### 2022-10-29
@@ -210,14 +215,14 @@ last_modified_date: "24 May 2025"
 - Updated `unified_inventory` (hide disabled buttons)
 - Updated `minetest_game` (disabled not needed LBMs)
 
-### 2022-10-29 2
+### 2022-10-29 (2)
 - Fixed a crash in `archtec_stamina`
 
 ### 2022-10-30
 - Fixed not updating hudbar in `archtec_stamina`
 - Improved /watch and /unwatch
 
-### 2022-10-30 2
+### 2022-10-30 (2)
 - Fixed broken healing
 
 ### 2022-10-31
@@ -321,7 +326,7 @@ last_modified_date: "24 May 2025"
 - Updated `node_entity_queue` (fmod)
 - Updated `ts_furniture` (ignore `tree` group)
 
-### 2022-12-03 2
+### 2022-12-03 (2)
 - Enabled `cherrytree` mod
 
 ### 2022-12-08
@@ -336,7 +341,7 @@ last_modified_date: "24 May 2025"
 - Re-added dates and digital clocks
 - Updated `christmastree` (fix crafting recipe)
 
-### 2022-12-09 2
+### 2022-12-09 (2)
 - Added `cottages` mod
 - Changed some `telemosaic` settings
 
@@ -380,7 +385,7 @@ last_modified_date: "24 May 2025"
 - Updated `ethereal` (new fish textures)
 - Updated `dummies` (spawn other players)
 
-### 2022-12-22 2
+### 2022-12-22 (2)
 - Added `choppy` mod
 - Updated `mobs_redo` (userdata crash fix no.2)
 - Removed unused `/memory` command
@@ -403,7 +408,7 @@ last_modified_date: "24 May 2025"
 - Updated `networks` (fix crash)
 - Updated `safer_lua` (limit code execution time)
 
-### 2022-12-30 2
+### 2022-12-30 (2)
 - Added some debug infos for staff members
 - Updated `techage` (doc KI2 chip)
 - Played with some mesecons_dbug settings
@@ -466,7 +471,7 @@ last_modified_date: "24 May 2025"
 - Updated `techage` (fix cement recipe)
 - Updated `smartshop` (secure formspec)
 
-### 2023-01-15 2
+### 2023-01-15 (2)
 - Re-enabled mapserver map.archtec.freemyip.com:8585
 
 ### 2023-01-21
@@ -501,7 +506,7 @@ last_modified_date: "24 May 2025"
 - Updated `techage` (fix crash)
 - Updated `unified_inventory` (fix not working search bar)
 
-### 2023-01-28 2
+### 2023-01-28 (2)
 - Enabled `stairs` replacement mod
 - Disabled `monitoring`
 
@@ -547,7 +552,7 @@ last_modified_date: "24 May 2025"
 - Updated `mobs_animal` (better water avoidance)
 - Updated `signs_bot` (set_param2 sign)
 
-### 2023-02-11 2
+### 2023-02-11 (2)
 - Updated mapserver
 - Added ingame notification if someone runs !status
 
@@ -610,7 +615,7 @@ last_modified_date: "24 May 2025"
 ### 2023-03-04
 - Re-enabled `archtec_mapserver` (added some lag checks)
 
-### 2023-03-04 2
+### 2023-03-04 (2)
 - Improved death messages
 - Improved way to get the `adv_buckets` priv
 - Cleanup some internal code
@@ -700,7 +705,7 @@ last_modified_date: "24 May 2025"
 - Updated `xban2` (code tidy)
 And much more...
 
-### 2023-03-30 2
+### 2023-03-30 (2)
 - Fixed not updating idlekick nametag (add movement detection)
 
 ### 2023-04-01
@@ -803,7 +808,7 @@ And much more...
 - Fixed a crash in `/ignore`
 - Staff members can now query the ignore list of other players
 
-### 2023-05-01 2
+### 2023-05-01 (2)
 - Added a hotfix LBM to grow broken moretrees saplings
 
 ### 2023-05-19
@@ -852,7 +857,7 @@ And much more...
 - Updated `technic_chests` (fix malformed translations)
 - Updated `unified_invenntory_plus` (improve logging)
 
-### 2023-05-30 2
+### 2023-05-30 (2)
 - Allow more and bigger areas
 
 ### 2023-06-17
@@ -1035,7 +1040,7 @@ And much more...
 ### 2023-10-01
 - Changed the server address from "archtec.freemyip.com:30803" to "archtec.niklp.net:30803"
 
-### 2023-10-01 2
+### 2023-10-01 (2)
 - Added a player XP ranking (`/rank`)
 - Added a playerlist (visible by pressing the `Zoom` key)
 - Added default channels (`/c default <channel name>`)
@@ -1184,7 +1189,7 @@ And much more...
 - Disabled builtin profiler (small performance boost)
 - Usual translation updates and minor bugfixes
 
-### 2024-02-01 2
+### 2024-02-01 (2)
 - Fixed a crash caused by not loaded namecolor data
 - Reverted `unified_inventory` update due to some categorization issues and a crash
 
@@ -1302,7 +1307,7 @@ And much more...
 - Disallowed rotation of various `mydoors` Doors
 - Usual translation updates and minor bugfixes
 
-### 2024-07-22 2
+### 2024-07-22 (2)
 - Fixed crash when using `/no` or `/yes`
 
 ### 2024-08-08
@@ -1327,7 +1332,7 @@ And much more...
 - Increased entity visibility by 32 nodes (2 blocks)
 - Usual translation updates and minor bugfixes
 
-## 2024-09-15
+### 2024-09-15
 - Enabled the Mapserver "Trainlines" overlay (trainlines must be added by Staff)
 
 ### 2024-09-16
@@ -1442,9 +1447,60 @@ And much more...
 - FAQ now mentions the "Omnidriver" and "Replacer" (Who hasn't heard of them yet? ;-)
 - Mymillwork Machine can be used with much more nodes from bakedclay and ethereal
 - Added "Techage Observervation Window" which makes items in tubes visible
-- Added "Cactur Flower" and "Blue Marble Brick"
+- Added "Cactus Flower" and "Blue Marble Brick"
 - Replacer cannot be used to gain XP as easily anymore
 - Horses, cows and warthogs can attack players out of the blue
 - Tweaked crop drops
 - Improved login, logout, IP location and VPN logging
 - Usual translation updates (particularly Ukrainian) and minor bugfixes
+
+### 2025-05-29
+- Integrated fail2ban to temp-ban IPs when a certain treshold of failed authentications is hit
+- Patched the engine to not send player names to the server list
+- Properly escape player names sent to Discord (avoid italicized player names)
+- Fixed crash when requests to the geoip API timed-out
+
+### 2025-06-25
+- Fixed broken `!status` (caused by new Markdown escaping)
+- Added number of existing FAQ pages to `/faq` the UI
+- Increased geoip timeout to 10 seconds
+
+### 2025-08-24
+- Deleted "Archtec feed" channel on Matrix which used to get notifications from GitHub (still available on Discord though)
+
+### 2025-08-28
+- The air above water sources next to snow freezes now to a thin layer of ice
+- Introduced credit-based code execution scheduler for Techage machines with custom Lua code support
+- Added French Techage Construction Board
+- Hoppers can now take from "side-pointing" hoppers positioned directly above
+- Improved Digiline LCD text readability at a distance
+- Kittens can now drink glasses of milk
+- Increased "/tell" message length to max. 500 characters
+- Fixed broken banners in Luanti 5.12 and newer
+- Added mangrove wooden doors, fences and other items (mangrove biomes are not yet available)
+- Usual translation updates (particularly Russian, Hungarian, Basque) and minor bugfixes
+
+### 2025-08-29
+- Updated Luanti to 5.13.0
+- Updated LuaJIT to latest master
+
+### 2025-09-04
+- Replaced PvP status icon code (might interfere with the hunger hudbar)
+
+### 2025-11-28
+- Made all trees from moretrees actually spawn
+- Improved in-node (noclip) hurt (requires both feet & head to be inside a solid node)
+- Added overheat factor for deferred tasks to Luacontroller time budged
+- Added pots for "Black Tulip" and "Green Chrysanthemum"
+- Added ethereal mud recipe
+- Added support for subnet banning
+- Fixed various display, button, traffic light, cylinder naming issues in Techage
+- Fixed vines not always starting to grow
+- Usual translation updates (particularly Polish, Danish) and minor bugfixes
+
+### 2025-11-28 (2)
+- Updated Luanti to 5.14.0
+- Updated LuaJIT to lastest master (amalgamation; may improve performance further)
+
+### 2025-12-26
+- Cleaned-up permissions on the Discord server: Please notify me if something you could previously do doesn't work anymore!
