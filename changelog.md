@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "24 May 2025"
+last_modified_date: "1 January 2026"
 ---
 
 # Changelog
@@ -1504,3 +1504,14 @@ And much more...
 
 ### 2025-12-26
 - Cleaned-up permissions on the Discord server: Please notify me if something you could previously do doesn't work anymore!
+
+## 2026
+
+### 2026-01-01
+- Added support for pulling items out of "Drawer Controller" using techage
+- Made "Mithril Scythe" pick up items
+- Made some animal eggs usable in protected areas
+- Fixed various techage bugs concerning lost items and documentation inaccuracies
+- Fixed burning techage lighters could be obtained with the crystal shovel
+- Upgraded the player state managment library ("player_monoids"); Report any physics related issues you might encounter
+- Usual translation updates (particularly German) and minor bugfixes
