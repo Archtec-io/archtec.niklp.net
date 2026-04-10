@@ -3,7 +3,7 @@ layout: default
 title: Changelog
 nav_order: 4
 description: Changelog
-last_modified_date: "1 January 2026"
+last_modified_date: "10 April 2026"
 ---
 
 # Changelog
@@ -1515,3 +1515,24 @@ And much more...
 - Fixed burning techage lighters could be obtained with the crystal shovel
 - Upgraded the player state managment library ("player_monoids"); Report any physics related issues you might encounter
 - Usual translation updates (particularly German) and minor bugfixes
+
+### 2026-01-03
+- Downgraded beds mod to fix Mihtril Shoes speed issue [trial and error]
+
+### 2026-03-01
+- Updated Mapserver to 4.10.0 (Changed title; listens on localhost only)
+
+### 2026-03-14
+- Increased mob spawning possibility by 250%
+- Added sound effects in caves
+- Added techage integration for smartshops
+- Fixed various techage issues concerning injectors, generator orientation and doorcontrolers
+- Fixed recipe conflicts for crafting magenta and medium green dye
+- Fixed crossbrace crafting cycle that returned infinite nodes
+- Added magical forest items (ethereal biome not enabled for technical reasons)
+- Upgraded unified inventory's internal crafting handling
+  - Please report any crafting related issues you might encounter
+- Usual translation updates (particularly Russian, Czech) and minor bugfixes
+
+- Updated Luanti to 5.15.1
+- Updated LuaJIT to latest master
